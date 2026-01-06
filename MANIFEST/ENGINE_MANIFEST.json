@@ -34,5 +34,5 @@
     ]
   },
   "outputs_are_interpretation": false,
-  "notes": "Produces raw fluid domain truth outputs only. No policy classification."
+  "notes": "Produces raw fluid domain outputs only. No operational recommendations or policy classification."
 }
