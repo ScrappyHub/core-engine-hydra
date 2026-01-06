@@ -16,6 +16,8 @@ CORE produces the run bundle per the platform RUN_BUNDLE_SPEC:
 - hashes all artifacts and writes SHA256SUMS
 - rejects non-compliant outputs
 
+- Authoritative spec: ScrappyHub/Core-platform/GOVERNANCE/RUN_BUNDLE_SPEC.md
+
 ## Required Minimum Artifacts
 - RUN_INPUT.json
 - RUN_OUTPUT.json
