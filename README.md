@@ -1,59 +1,46 @@
-# 💧 CORE ENGINE — HYDRA GOVERNANCE (CANONICAL)
+# HYDRA — Fluid & Water Resonance Engine
 
-File: `verticals/hydra/CORE_HYDRA_ENGINE_GOVERNANCE.md`  
-Engine Key: **HYDRA**  
-Authority Level: Engine Governance (Binding)  
-Status: ✅ BINDING | ✅ NON-OPTIONAL  
+HYDRA is a deterministic fluid-domain physics engine.
 
-## 1. Authority & Inheritance
+It computes **fluid behavior and resonance**, not operational control.
 
-HYDRA inherits and is bound by CORE governance law and registry contract.
+---
 
-## 2. Scope (What HYDRA Is)
+## Engine Role
 
-HYDRA models fluid behavior:
-- flow fields, laminar/turbulent regimes
-- pressure waves and resonance nodes
-- cavitation potential
+**Engine Type:** TRUTH_ENGINE  
+**Domain:** Fluid dynamics & water resonance  
+**Execution Context:** CORE-orchestrated only
+
+---
+
+## What HYDRA Computes
+
+- velocity and pressure fields
+- laminar vs turbulent regimes (as declared)
 - vortex structures
-- coupling parameters (if inputs declared)
+- pressure waves in fluids
+- cavitation potential indicators
 
-## 3. Non-Scope
+---
 
-HYDRA may NOT:
-- control real infrastructure systems
-- make safety-critical operational decisions
-- access unrelated tenant data
+## Prohibitions
 
-## 4. Determinism & Reproducibility
+HYDRA does NOT:
+- control pumps or valves
+- issue operational recommendations
+- infer intent or causality
+- access networks
+- publish independently
 
-HYDRA must:
-- declare solver mode and determinism class
-- log all numerical parameters used
-- ensure reruns reproduce within declared tolerance
+---
 
-## 5. Required Artifacts
+## Determinism & Outputs
 
-- `ENGINE_MANIFEST.json`
-- `RUN_CONDITIONS.json`
-- `SHA256SUMS.txt`
-- `FLOW_FIELD.json`
-- `PRESSURE_FIELD.json`
-- `TURBULENCE_REPORT.json`
-- `CAVITATION_REPORT.json`
-- `ARTIFACT_INDEX.json`
+HYDRA outputs sealed, reproducible fluid-domain artifacts verified by CORE.
 
-## 6. Safety & Misuse Controls
+---
 
-Outputs must:
-- include clear unit labeling
-- include solver stability warnings when relevant
-- block implied real-world control recommendations
+## Governance
 
-## 7. Publishing & Export Rules
-
-Export requires sealed run + manifest + hashes.
-
-## 8. Amendment Rules
-
-Governance review required for changes.
+HYDRA is permanently bound by CORE governance and registry law.
