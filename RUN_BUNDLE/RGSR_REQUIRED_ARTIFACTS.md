@@ -1,5 +1,7 @@
 # RGSR REQUIRED ARTIFACTS (Canonical V1)
 
+This document is an addendum to ScrappyHub/Core-platform/GOVERNANCE/RUN_BUNDLE_SPEC.md.
+
 RGSR is a fusion engine. It must always emit and preserve upstream provenance.
 
 ## Required (in addition to standard RUN_BUNDLE spec)
